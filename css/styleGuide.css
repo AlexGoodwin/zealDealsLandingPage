@@ -1,0 +1,299 @@
+@import url(reset.css);
+/* line 14, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background: white;
+  background-color: white;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px;
+  width: 100%; }
+
+/* line 28, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+* {
+  box-sizing: inherit; }
+
+/* line 32, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.patternBG {
+  background-image: url("../img/nice_snow.png");
+  background-repeat: repeat; }
+
+/* line 36, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.main {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 5em; }
+
+/* line 45, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+a {
+  font-family: "Interstate", sans-serif;
+  color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 1em;
+  transition: color 0.5s ease; }
+
+/* line 54, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+a:hover {
+  color: #036; }
+
+/* line 58, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+a:active {
+  color: #036; }
+
+/* line 62, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.styleGuideHeader {
+  color: white;
+  background-color: #036;
+  padding: 200px 0; }
+
+/* line 68, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.exampleLink {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  display: flex; }
+  /* line 73, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+  .exampleLink a {
+    width: auto;
+    display: block;
+    margin: 0 auto; }
+
+/* line 80, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.typography, .color, .components {
+  padding: 3em 0; }
+
+/* line 84, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: "Interstate",Helvetica,Arial,sans-serif;
+  margin: 0;
+  display: block;
+  line-height: normal;
+  word-wrap: break-word;
+  padding: 1em 0em;
+  text-align: center;
+  background-color: transparent;
+  margin: 0 auto;
+  color: #333;
+  width: auto; }
+
+/* line 98, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h1 {
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: .025em;
+  text-transform: uppercase; }
+
+/* line 105, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 0; }
+
+/* line 112, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 0; }
+
+/* line 119, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h4 {
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: .05em; }
+
+/* line 125, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h5 {
+  font-weight: normal;
+  font-size: 2em;
+  letter-spacing: .025em; }
+
+/* line 131, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h6 {
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: .025em; }
+
+/* line 137, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+h7 {
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 0; }
+
+/* line 144, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+strong {
+  font-weight: bold; }
+
+/* line 148, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+p {
+  font-size: 1em;
+  color: #333;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1em; }
+  /* line 156, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+  p .eighteen {
+    font-size: 18px; }
+
+/* line 161, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.center {
+  text-align: center; }
+
+/* line 164, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.right {
+  text-align: right; }
+
+/* line 168, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.heroHeader {
+  background-image: url("../img/hero.jpg");
+  background-size: cover; }
+  /* line 171, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+  .heroHeader h1 {
+    padding: 350px 0;
+    color: white; }
+
+/* line 177, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.standAloneButton {
+  background: #c30;
+  color: white;
+  padding: 1em 2em;
+  margin: 30px auto 0px auto;
+  text-align: center;
+  display: table;
+  width: auto;
+  font-size: 1em;
+  transition: background-color 0.5s ease; }
+
+/* line 189, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.standAloneButton:hover {
+  background-color: #b20;
+  color: white; }
+
+/* line 194, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.standAloneButton:active {
+  background-color: #b20;
+  color: white; }
+
+/* line 292, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+.color {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  background-color: white; }
+  /* line 297, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+  .color .colorBox {
+    flex-basis: 50%;
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    display: flex; }
+    /* line 303, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .whiteAndNavy, .color .colorBox .whiteAndBlack, .color .colorBox .orange, .color .colorBox .rust {
+      padding: 20px;
+      height: 400px;
+      flex-basis: 100%; }
+    /* line 308, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox p, .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .whiteAndNavy, .color .colorBox .whiteAndBlack, .color .colorBox .orange, .color .colorBox .rust {
+      margin: 0 auto;
+      color: white;
+      font-size: 32px;
+      padding: 10px; }
+    /* line 314, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .wHover {
+      padding: 20px;
+      height: 400px;
+      flex-basis: 50%;
+      flex-flow: row nowrap; }
+    /* line 320, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .whiteAndNavy {
+      background-color: white;
+      border-style: solid;
+      border-color: #036;
+      border-width: 4px; }
+      /* line 325, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+      .color .colorBox .whiteAndNavy p {
+        color: #036; }
+    /* line 330, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .whiteAndBlack {
+      background-color: white;
+      border-style: solid;
+      border-color: black;
+      border-width: 4px; }
+      /* line 335, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+      .color .colorBox .whiteAndBlack p {
+        color: black; }
+    /* line 340, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .lightGrey {
+      background-color: #ccc; }
+    /* line 343, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .mediumGrey {
+      background-color: #666; }
+    /* line 346, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .darkGrey {
+      background-color: #333; }
+    /* line 349, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .navy {
+      background-color: #036; }
+    /* line 352, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .turquoise {
+      background-color: #366; }
+    /* line 355, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .orange {
+      background-color: #c30; }
+    /* line 358, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .rust {
+      background-color: #a52900; }
+    /* line 361, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    .color .colorBox .black {
+      background-color: #000; }
+
+@media screen and (max-width: 991px) and (min-width: 500px) {
+  /* line 368, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+  body {
+    font-size: 12px; }
+    /* line 369, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body p {
+      font-size: 14px; }
+    /* line 374, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body .productLineup .product {
+      flex-basis: 50%; }
+    /* line 377, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body .productLineup .featured {
+      flex-basis: 100%; }
+    /* line 384, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body .main .containedPageBreak .splitParagraph .half {
+      flex-basis: 100%; } }
+
+@media screen and (max-width: 499px) {
+  /* line 394, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+  body {
+    font-size: 10px; }
+    /* line 395, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body p {
+      font-size: 12px; }
+    /* line 400, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body .productLineup .product {
+      flex-basis: 100%; }
+      /* line 402, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+      body .productLineup .product .standAloneButton {
+        width: 100%; }
+    /* line 406, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body .productLineup .featured {
+      flex-basis: 100%; }
+    /* line 413, /Users/retail/Desktop/code/zealDeals/css/styleGuide.scss */
+    body .main .containedPageBreak .splitParagraph .half {
+      flex-basis: 100%;
+      width: 100%; } }
+
+/*# sourceMappingURL=styleGuide.css.map */
